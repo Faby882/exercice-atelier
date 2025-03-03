@@ -1,0 +1,95 @@
+.body{
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.boxliste{
+    background: #333;
+    color: white;
+    display: list-item;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+    margin-top: 10px;
+    height: 80%;
+    padding: 20px;
+    max-width: 30%; 
+    margin: auto; 
+    border-radius: 5px; 
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 15px;
+    background: white;
+    border: 2px solid #ccc;
+    margin: 5px auto;
+    max-width: 30%;
+    color: #ccc;
+    margin: 5px 0;
+
+}
+.navbar a {
+    color: #696565;
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: larger;
+    padding:  50x;
+    margin-inline: 0;
+    max-width: 80%;
+    margin-top: 0;
+}
+
+.row {
+    display: flex;
+    gap: 5px;
+   
+}
+
+
+.box {
+    background: #555;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.row:first-child .box {
+    width: 50px;
+    height: 25px;
+}
+
+.box.large {
+    width: 100px;
+    height: 20px;
+}
+
+.box:nth-child(1) {
+   
+    background: #555;
+}
+
+.box:nth-child(2) {
+    background: #555;
+}
+
+.box.large {
+    background: #555;
+}
+footer {
+    margin-top: 10px;
+    font-weight: bold;
+}
